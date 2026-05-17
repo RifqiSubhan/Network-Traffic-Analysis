@@ -1,0 +1,14 @@
+# Nmap Analysis
+
+This section focuses on network reconnaissance using Nmap in a controlled lab environment.
+
+The goal is to understand how services are discovered, how ports and versions are identified, and how enumeration helps map potential attack surfaces.
+
+## Objectives
+- Identify active hosts in a network
+- Perform port scanning and service detection
+- Understand exposed services and configurations
+- Practice enumeration techniques in a lab environment
+
+## Notes
+All activities are performed in a controlled and legal lab setup for cybersecurity learning purposes.
