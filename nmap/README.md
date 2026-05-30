@@ -1,8 +1,16 @@
-in this scenario,we as a attacker try to reach the server and the ip 
-10.40.93.78.
+## Objective
+Host discovery,port scaning,service enumeration.
 
-for the good reason the comman option make stealth connection and bypass 
-firewall with -Pn and -A for looking a standar ouput target we can reveal 
-at this point.
+## Commands Used
+nmap -sS -Pn -A 10.40.93.78 : SYN-half,host discovery,port discovery.
 
-and the target have a good output,they have a ssh on the server.
+## Discovery
+SSH - Port 22
+rtsp - Port 5000
+Apple MacOS 11 - OS
+
+## Analysis
+Early enumeration and aim for direcrt connection and find potencial 
+entrypoint.
+for this session we got the ssh,but we need more credential,so with that 
+try to pivot and search http (port 80).
