@@ -1,16 +1,36 @@
-## Objective
-Host discovery,port scaning,service enumeration.
+# Nmap
 
-## Commands Used
-nmap -sS -Pn -A 10.40.93.78 : SYN-half,host discovery,port discovery.
+## Overview
 
-## Discovery
-SSH - Port 22
-rtsp - Port 5000
-Apple MacOS 11 - OS
+This project contains my hands-on practice using Nmap for network 
+reconnaissance and service enumeration in a controlled lab environment.
 
-## Analysis
-Early enumeration and aim for direcrt connection and find potencial 
-entrypoint.
-for this session we got the ssh,but we need more credential,so with that 
-try to pivot and search http (port 80).
+## Objectives
+
+* Learn host discovery techniques
+* Identify open ports and services
+* Practice service enumeration
+* Understand basic network reconnaissance
+
+## Tools Used
+
+* Nmap
+* Linux (Debian)
+
+## Skills Practiced
+
+* Host Discovery
+* Port Scanning
+* Service Enumeration
+* Version Detection
+* Network Reconnaissance
+
+## Screenshots
+
+Scan results and screenshots are available in the images directory.
+
+## Disclaimer
+
+All activities were performed in a personal lab environment for 
+educational and defensive security purposes only.
+
