@@ -1,1 +1,5 @@
-in this scenario the attacker (10.40.93.32) make a first step to our server and try gain potencial port open to the victim (10.40.93.78) instead tcp protocol and make alot SYN handshake
+In this scenario, the attacker (10.40.93.32) initiated a reconnaissance activity against the target server (10.40.93.78) by sending multiple TCP SYN packets to various destination ports.
+
+This behavior is commonly associated with a TCP SYN scan, which aims to identify open ports without completing the full TCP three-way handshake.
+
+The analysis shows that the attacker attempted to enumerate available services running on the target host as part of the reconnaissance phase.

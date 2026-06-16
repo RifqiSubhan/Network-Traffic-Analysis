@@ -1,0 +1,7 @@
+In this scenario, the attacker (10.40.93.32) attempted to enumerate the SSH service running on the target host (10.40.93.78).
+
+The captured traffic indicates the use of Nmap Nmap Scripting Engine (NSE), specifically SSH-related scripts such as ssh-hostkey, to gather information about the SSH implementation.
+
+The analysis revealed details including the supported SSH protocol versions, SSH host key information, and key exchange mechanisms such as Diffie-Hellman Key Exchange Init.
+
+This type of activity is commonly associated with the reconnaissance phase of an attack, where an adversary collects information about exposed services before attempting further exploitation.

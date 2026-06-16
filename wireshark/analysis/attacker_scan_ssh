@@ -1,0 +1,6 @@
+The observed traffic indicates an attempt to identify services running on the target host.
+
+The successful TCP connection to port 22 suggests that the SSH service was active and reachable. Such activity is commonly associated with reconnaissance techniques used to enumerate available 
+network services.
+
+filter (tcp.port == 22)

@@ -1,0 +1,7 @@
+In this scenario, the attacker (10.40.93.32) repeatedly sent TCP SYN packets to port 22 on the target host (10.40.93.78).
+
+Several connection attempts were terminated using RST packets instead of completing the full TCP three-way handshake. This behavior may indicate the use of a TCP SYN scan (stealth scan), where the 
+scanner identifies open ports without establishing a full connection.
+
+Such scanning activity is commonly associated with the reconnaissance phase of an attack lifecycle, allowing an attacker to enumerate available services while minimizing connection logs on the 
+target system.

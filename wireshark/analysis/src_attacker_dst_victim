@@ -1,0 +1,7 @@
+In this scenario, the attacker (10.40.93.32) attempted to probe multiple TCP ports on the target host (10.40.93.78).
+
+The captured traffic shows numerous TCP SYN packets directed to various service ports, including SSH (22), HTTP (80), HTTPS (443), FTP (21), RDP (3389), and SMB (445).
+
+This behavior is consistent with TCP port scanning activity, where an attacker performs reconnaissance to identify accessible services exposed by the target system.
+
+Further analysis of bidirectional traffic is required to determine which ports responded with SYN-ACK packets and were therefore likely open.
